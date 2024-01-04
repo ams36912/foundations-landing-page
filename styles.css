@@ -1,0 +1,147 @@
+* {
+    font-family: 'Roboto', serif;
+}
+
+body {
+    margin: 0;
+}
+
+#header, #hero, #info-section, #quote-section, #cta-section, footer {
+    padding: 40px 100px;
+}
+
+#header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+}
+
+#header, #hero, footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header #logo {
+    font-size: 24px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#hero * {
+    flex: 1;
+}
+
+.placeholder-image {
+    background-color: gray;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 12px 40px;
+    color: white;
+}
+
+button, #cta-section {
+    background-color: #3882f6;
+    border-radius: 16px;
+}
+
+#info-section #card-group{
+    text-align: center;
+    display: flex;
+}
+
+#info-section .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info-section .square {
+    border: 2px solid blue;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+}
+
+#info-section h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+#quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#quote-section #quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#cta-section {
+    margin: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#cta-section .content {
+
+}
+
+#cta-section button {
+    border: 2px solid white;
+    flex-shrink: 0;
+    flex-basis: 1;
+}
+
+footer {
+    text-align: center;
+}
