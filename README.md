@@ -1,0 +1,1 @@
+A landing page to practice css and flexbox as part of The Odin Project foundations.
